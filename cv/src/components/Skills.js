@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import Skill from "./Skill";
+import Interests from "./Interests";
 
 const Skills = () => {
   return (
@@ -20,6 +21,7 @@ const Skills = () => {
         <Skill title="Turc" rating="4" />
         <Skill title="Français" rating="3" />
       </div>
+      <Interests />
     </div>
   );
 };

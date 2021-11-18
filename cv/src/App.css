@@ -59,11 +59,26 @@ h2 {
 p {
   margin-bottom: var(--spacing-2);
 }
+ul {
+  padding-left: 1.3rem;
+}
+li {
+  margin-bottom: var(--spacing-2);
+}
 
+/* Grids */
+.grid__row {
+  margin: var(--spacing-3) 0;
+}
 @media screen and (min-width: 768px) {
-  grid__container {
+  .grid__container {
     display: grid;
     grid-template-columns: 1fr 3fr;
+  }
+  .grid__row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0;
   }
 }
 
